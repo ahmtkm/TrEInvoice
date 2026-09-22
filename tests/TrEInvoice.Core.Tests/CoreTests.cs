@@ -1,0 +1,3 @@
+using TrEInvoice.Core;
+namespace TrEInvoice.Core.Tests;
+public class CoreTests { [Fact] public void Creates_invoice(){var i=InvoiceDocument.Empty(); Assert.Equal("TRY",i.Currency); Assert.Empty(i.Lines);} [Fact] public void Currency_amount_is_value_object(){Assert.Equal(new CurrencyAmount(10,"TRY"),new CurrencyAmount(10,"try"));} [Fact] public void Invoice_collections_are_snapshots(){var lines=new List<InvoiceLine>(); var invoice=InvoiceDocument.Empty() with {Lines=lines}; lines.Add(new("1","item",1,new(1,"TRY"),new(1,"TRY"),[],new(0,"TRY"),new(0,"TRY"))); Assert.Empty(invoice.Lines);} [Fact] public void Currency_must_be_present(){Assert.Throws<ArgumentException>(()=>new CurrencyAmount(1," "));} }

@@ -1,0 +1,27 @@
+name: UBL mapping proposal
+description: Propose or report a generic UBL field mapping.
+title: "[UBL mapping]: "
+body:
+  - type: input
+    id: element
+    attributes:
+      label: UBL element and namespace
+    validations:
+      required: true
+  - type: textarea
+    id: mapping
+    attributes:
+      label: Proposed model mapping
+    validations:
+      required: true
+  - type: textarea
+    id: synthetic
+    attributes:
+      label: Synthetic XML example
+      description: Do not provide customer invoices, tax IDs, or provider data.
+    validations:
+      required: true
+  - type: textarea
+    id: references
+    attributes:
+      label: Public standard references and licensing notes

@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PackageId>TrEInvoice.Core</PackageId>
+    <Version>0.1.0</Version>
+    <Authors>TrEInvoice contributors</Authors>
+    <Description>Provider-independent invoice and monetary models for the TrEInvoice toolkit.</Description>
+    <PackageTags>e-invoice;invoice;UBL;electronic-invoice</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <IsPackable>true</IsPackable>
+  </PropertyGroup>
+
+</Project>
