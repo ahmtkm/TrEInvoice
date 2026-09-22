@@ -12,11 +12,11 @@ TrEInvoice is an open-source .NET toolkit for parsing, calculating, validating, 
 ## What it is not
 
 - Not an official GİB library.
-- Not an e-invoice provider or a transport client.
-- It does not send invoices to GİB or any provider.
-- It does not digitally sign invoices or apply a Mali Mühür.
-- It does not claim legal, regulatory, or GİB profile compliance.
-- It does not bundle official GİB datasets in v0.1.0.
+- Not an e-invoice service provider.
+- Does not send invoices to GİB or any provider.
+- Does not digitally sign invoices or apply a Mali Mühür.
+- Does not claim legal, regulatory, or GİB profile compliance.
+- Official GİB datasets are not bundled in v0.1.0.
 
 ## Features
 
