@@ -10,9 +10,13 @@
     <Description>Decimal invoice calculation, rounding, and total reconciliation for TrEInvoice.</Description>
     <PackageTags>e-invoice;invoice;calculation;rounding;reconciliation</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/ahmtkm/TrEInvoice</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <IsPackable>true</IsPackable>
   </PropertyGroup>
-  <ItemGroup><ProjectReference Include="..\TrEInvoice.Core\TrEInvoice.Core.csproj" /></ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+    <ProjectReference Include="..\TrEInvoice.Core\TrEInvoice.Core.csproj" />
+  </ItemGroup>
 </Project>
