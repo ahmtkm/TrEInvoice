@@ -10,6 +10,8 @@
     <Description>Generic structural and monetary validation for TrEInvoice invoice documents.</Description>
     <PackageTags>e-invoice;invoice;validation;UBL</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/ahmtkm/TrEInvoice</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
     <IsPackable>true</IsPackable>
   </PropertyGroup>
   <ItemGroup><ProjectReference Include="..\TrEInvoice.Core\TrEInvoice.Core.csproj" /></ItemGroup>

@@ -10,6 +10,8 @@
     <Description>Secure XML reading and basic unsigned UBL invoice serialization for TrEInvoice.</Description>
     <PackageTags>e-invoice;UBL;XML;invoice</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/ahmtkm/TrEInvoice</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
     <IsPackable>true</IsPackable>
   </PropertyGroup>
   <ItemGroup><ProjectReference Include="..\TrEInvoice.Core\TrEInvoice.Core.csproj" /></ItemGroup>

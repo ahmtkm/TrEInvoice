@@ -10,6 +10,8 @@
     <Description>Provider-independent invoice and monetary models for the TrEInvoice toolkit.</Description>
     <PackageTags>e-invoice;invoice;UBL;electronic-invoice</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/ahmtkm/TrEInvoice</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
     <IsPackable>true</IsPackable>
   </PropertyGroup>
 
